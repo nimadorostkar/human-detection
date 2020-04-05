@@ -5,9 +5,9 @@ Yolov3 is an algorithm that uses deep convolutional neural networks to perform o
 <div> <br>
 
 ![example](https://github.com/nimadorostkar/human-detection/blob/master/data/images/simple.gif)
-<div dir="ltr">
-## Getting started
 
+## Getting started
+<div dir="ltr">
 
 #### Pip
 ```bash

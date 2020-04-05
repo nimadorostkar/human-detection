@@ -1,6 +1,8 @@
 # YOLOV3 & Tensorflow object detection and report human movements in persian
 Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. This repository implements Yolov3 using TensorFlow <br>
-الگوریتم‌های مختلفی برای پیاده‌سازی سیستم تشخیص اشیا در نظر گرفته شدند، اما در نهایت، الگوریتم YOLO به عنوان الگوریتم اصلی بر پیاده‌سازی این سیستم در نظر گرفته شد. دلیل انتخاب الگوریتم YOLO، سرعت بالا و قدرت محاسباتی آن و همچنین، وجود منابع آموزشی زیاد برای راهنمایی کاربران هنگام پیاده‌سازی این الگوریتم است. <br>
+<div dir="rtl">
+الگوریتم‌های مختلفی برای پیاده‌سازی سیستم تشخیص اشیا در نظر گرفته شدند، اما در نهایت، الگوریتم YOLO به عنوان الگوریتم اصلی بر پیاده‌سازی این سیستم در نظر گرفته شد. دلیل انتخاب الگوریتم YOLO، سرعت بالا و قدرت محاسباتی آن و همچنین، وجود منابع آموزشی زیاد برای راهنمایی کاربران هنگام پیاده‌سازی این الگوریتم است. 
+<div> <br>
 
 ![example](https://github.com/nimadorostkar/human-detection/blob/master/data/images/simple.gif)
 
@@ -13,7 +15,7 @@ pip install -r requirements.txt
 
 ```
 ### Downloading official pretrained weights
-### از لینک های زیر dataset رو میتونید دانلود کنید
+###  <div dir="rtl">  از لینک های زیر dataset رو میتونید دانلود کنید   <div>
 For Linux: Let's download official yolov3 weights pretrained on COCO dataset. 
 
 ```

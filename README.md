@@ -73,13 +73,13 @@ You should see these two images saved for running the first command.
 ```
 detection1.jpg
 ```
-![demo](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/detections/detection1.jpg)
+![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection0.jpg)
 ```
 detection2.jpg
 ```
-![demo](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/detections/detection2.jpg)
+![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection1.jpg)
 
-### Video example
-![demo](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detections.gif)
+
+![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection2.jpg)
 
 <div>

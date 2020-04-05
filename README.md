@@ -82,9 +82,11 @@ Then you can find the detections in the `detections` folder.
   
  ### حتما اینو امتحان کنید
 با دستور زیر به صورت real-time ویدیو از وبکم گرفته میشه و object های تصویر تحلیل میشه و اگه انسان شناسایی بشه به صورت صوتی اعلام میشه.
+<div>
+  
 ```bash
 
 python detect_video.py --video 0
 
 ```
-<div>
+

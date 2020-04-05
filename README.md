@@ -69,16 +69,10 @@ python detect_video.py --video path_to_file.mp4 --output ./detections/output.avi
 ```
 Then you can find the detections in the `detections` folder.
 <br>
-You should see these two images saved for running the first command.
-```
-detection1.jpg
-```
-![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection0.jpg)
-```
-detection2.jpg
-```
-![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection1.jpg)
 
+![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection0.jpg)
+
+![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection1.jpg)
 
 ![demo](https://github.com/nimadorostkar/human-detection/blob/master/data/images/detection2.jpg)
 

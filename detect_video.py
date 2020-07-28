@@ -101,7 +101,7 @@ def main(_argv):
                 print("yes, human detected ")
                 play(song)
 
-        print("-------------------------------------------------")
+        print("------------------------------------------------")
 
 
         if cv2.waitKey(1) == ord('q'):

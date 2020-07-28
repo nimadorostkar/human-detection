@@ -12,6 +12,8 @@ def callback():
 # video file with output saved (can save webcam like this too) - python detect_video.py --video path_to_file.mp4 --output ./detections/output.avi
 
 
+
+
 root = Tk()
 canvas = Canvas(root, width=1200, height=600)
 canvas.pack(expand = True, fill = "both")

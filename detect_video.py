@@ -14,6 +14,7 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 
+
 flags.DEFINE_string('classes', './data/labels/coco.names', 'path to classes file')
 flags.DEFINE_string('weights', './weights/yolov3.tf',
                     'path to weights file')
@@ -100,7 +101,6 @@ def main(_argv):
             if (class_names[int(classes[0][i])]) == "person":                     #filter for humans
                 print("yes, human detected ")
                 play(song)
-
         print("------------------------------------------------")
 
 

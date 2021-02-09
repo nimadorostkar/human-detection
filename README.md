@@ -4,6 +4,7 @@ Yolov3 is an algorithm that uses deep convolutional neural networks to perform o
 الگوریتم‌های مختلفی برای پیاده‌سازی سیستم تشخیص اشیا در نظر گرفته شدند، اما در نهایت، الگوریتم YOLO به عنوان الگوریتم اصلی بر پیاده‌سازی این سیستم در نظر گرفته شد. دلیل انتخاب الگوریتم YOLO، سرعت بالا و قدرت محاسباتی آن و همچنین، وجود منابع آموزشی زیاد برای راهنمایی کاربران هنگام پیاده‌سازی این الگوریتم است. 
 <div> <br>
 
+
 ![example](https://github.com/nimadorostkar/human-detection/blob/master/data/images/simple.gif)
 
 ## Getting started

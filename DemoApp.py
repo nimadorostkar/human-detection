@@ -13,7 +13,6 @@ def callback():
 
 
 
-
 root = Tk()
 canvas = Canvas(root, width=1200, height=600)
 canvas.pack(expand = True, fill = "both")

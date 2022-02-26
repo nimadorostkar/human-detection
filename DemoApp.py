@@ -6,6 +6,7 @@ from PIL import ImageTk, Image
 
 
 
+
 def callback():
     os.system("python detect_video.py --video 0")
 

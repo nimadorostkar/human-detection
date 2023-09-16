@@ -2,7 +2,6 @@ import time
 from absl import app, flags, logging
 from absl.flags import FLAGS
 import cv2
-
 import tensorflow as tf
 from yolov3_tf2.models import ( YoloV3, YoloV3Tiny )
 from yolov3_tf2.dataset import transform_images
@@ -11,7 +10,6 @@ import datetime
 import numpy as np
 from pydub import AudioSegment
 from pydub.playback import play
-
 
 
 

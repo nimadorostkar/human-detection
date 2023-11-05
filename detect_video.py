@@ -12,7 +12,6 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 
-
 flags.DEFINE_string('classes', './data/labels/coco.names', 'path to classes file')
 flags.DEFINE_string('weights', './weights/yolov3.tf',
                     'path to weights file')
@@ -72,7 +71,6 @@ def main(_argv):
             else:
                 break
                 
-
         img_in = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         img_in = tf.expand_dims(img_in, 0)
         img_in = transform_images(img_in, FLAGS.size)
@@ -100,7 +98,7 @@ def main(_argv):
             if (class_names[int(classes[0][i])]) == "person":                     #filter for humans
                 print("yes, human detected ")
                 play(song)
-        print("------------------------------------------------")
+        print("-------------")
 
 
         if cv2.waitKey(1) == ord('q'):
@@ -115,5 +113,3 @@ if __name__ == '__main__':
     except SystemExit:
         pass
 
-    
-    

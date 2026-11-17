@@ -29,6 +29,7 @@ def main(_argv):
     yolo.save_weights(FLAGS.output)
     logging.info('weights saved')
 
+
 if __name__ == '__main__':
     try:
         app.run(main)
